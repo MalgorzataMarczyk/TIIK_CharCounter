@@ -35,7 +35,9 @@ namespace TIIK_CharCounter
         void countTextData(string sRader)
         {
             var map = new Dictionary<char, double>();
-            foreach(char c in sRader)
+            double textFileLength = sRader.Length;
+
+            foreach (char c in sRader)
             {
                 if (map.ContainsKey(c))
                 {
@@ -55,17 +57,28 @@ namespace TIIK_CharCounter
             }
             foreach (KeyValuePair<char, double> entry in map)
             {
-                richTextBoxCountData.AppendText(entry.Key +"\t\t" + entry.Value.ToString() + "\n");
+                double characterProbability = CountCharProbability(entry.Value, textFileLength);
+                richTextBoxCountData.AppendText(entry.Key +"\t\t" + 
+                    entry.Value.ToString() + "\t\t\t" +
+                    characterProbability.ToString() + "\t\t\t" +
+                    CountTextInformationValue(characterProbability) + "\t\t" + "\n");
             }
-            
+        }
+
+        double CountCharProbability(double characterCount, double textLength)
+        {
+            return Math.Round(characterCount/textLength, 4);
+        }
+
+        double CountTextInformationValue(double characterProbability)
+        { 
+            return Math.Round(Math.Log(2, 1/characterProbability), 4);
         }
 
         private void buttonCount_Click(object sender, EventArgs e)
-        { 
+        {
             string readFileText = sReader.ReadToEnd();
             countTextData(readFileText);
-
-           
         }
     }
 }
