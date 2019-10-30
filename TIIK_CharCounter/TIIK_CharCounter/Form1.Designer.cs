@@ -37,6 +37,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.buttonCount = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBoxEntropia = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonChooseFile
@@ -121,11 +123,29 @@
             this.label4.Text = "Number of information in the text";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(201, 353);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Entropia";
+            // 
+            // textBoxEntropia
+            // 
+            this.textBoxEntropia.Location = new System.Drawing.Point(164, 369);
+            this.textBoxEntropia.Name = "textBoxEntropia";
+            this.textBoxEntropia.Size = new System.Drawing.Size(128, 20);
+            this.textBoxEntropia.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(473, 352);
+            this.ClientSize = new System.Drawing.Size(473, 401);
+            this.Controls.Add(this.textBoxEntropia);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonCount);
             this.Controls.Add(this.label3);
@@ -153,6 +173,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonCount;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBoxEntropia;
     }
 }
 

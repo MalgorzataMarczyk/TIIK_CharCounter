@@ -8,3 +8,13 @@ C:\Users\Gosia\source\repos\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_Cha
 C:\Users\Gosia\source\repos\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.csproj.CoreCompileInputs.cache
 C:\Users\Gosia\source\repos\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.exe
 C:\Users\Gosia\source\repos\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.pdb
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\bin\Debug\TIIK_CharCounter.exe.config
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\bin\Debug\TIIK_CharCounter.exe
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\bin\Debug\TIIK_CharCounter.pdb
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.csprojAssemblyReference.cache
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.Form1.resources
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.Properties.Resources.resources
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.csproj.GenerateResource.cache
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.csproj.CoreCompileInputs.cache
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.exe
+C:\Users\Gosia\Documents\GitHub\TIIK_CharCounter\TIIK_CharCounter\TIIK_CharCounter\obj\Debug\TIIK_CharCounter.pdb
